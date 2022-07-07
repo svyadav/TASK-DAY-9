@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./table.css" /> -->
+    <style>
+      body{
+  
+  font-size:18px;
+}
+
+
+.container{
+  width:95%;
+  margin:0 auto;
+}
+.header{
+
+  background-color: red;
+  color:white;
+  font-weight:bold;
+  font-size:25px;
+}
+
+
+.header-margin{
+  margin:8px 20px 6px 20px;
+  padding:15px;
+
+
+}
+
+
+
+.year{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  justify-content: space-evenly;
+  width:50%;
+
+}
+
+
+.subscribe{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+ 
+}
+
+.year-width{
+  width:100%;
+}
+
+
+.name-container{
+  display:flex;
+ 
+}
+
+
+
+
+.sub-container{
+  display:flex;
+  height:340px;
+  width:550px;
+  border:5px solid black;
+  flex-direction: column;
+}
+
+
+.tbox{
+  border-bottom: 1px solid;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width:80%;
+  text-align:center;
+  
+}
+
+.tbox-add{
+  width:90%;
+
+}
+
+.fname{
+  margin-right:55%;
+  font-size:15px;
+} 
+
+
+.faddress{
+  margin-right:80%;
+  font-size:15px;
+
+}
+
+.fcity{
+  margin-right:70%;
+  font-size:15px;
+
+}
+
+
+.font{
+   font-weight:bold;
+}
+
+
+.comp-margin{
+   margin-left:20px;
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sub-container">
+        <p class="header header-margin">
+          Yes! I want to subscribe to Mag-O-Zine
+        </p>
+        <section class="name-container">
+          <section class="year">
+            <div class="tbox ">
+           Joe
+            </div>
+            <div class="fname">First Name
+            </div>
+          </section>
+
+          <section class="year">
+            <div class="tbox">
+           schemegegie
+            </div>
+            <div class="fname">Last Name
+            </div>
+          </section>
+         
+        </section>
+        <section class="name-container">
+            <section class="year year-width">
+              <div class="tbox tbox-add">
+                1001 Wahington Street
+              </div>
+              <div class="faddress">Address
+              </div>
+            </section>
+            </section>
+             
+
+             <section class="name-container">
+                <section class="year">
+                  <div class="tbox">
+                 Antony
+                  </div>
+                  <div class="fname">City
+                  </div>
+                </section>
+      
+                <section class="year">
+                  <div class="tbox">
+                 CA
+                  </div>
+                  <div class="fname">State
+                  </div>
+                </section>
+                <section class="year">
+                    <div class="tbox">
+                   9999
+                    </div>
+                    <div class="fname">Zip
+                    </div>
+                  </section>
+                </section><br>
+
+
+                 <section class="name-container font">
+                    <section class="year">
+                      <div class="">
+                     Subscribe For:
+                      </div>
+                     
+                    </section>
+          
+                    <section class="year">
+                      <div class="">
+                        <input type="checkbox" id="one" name="" class="" checked />1 Year ($19.95)
+                      
+                    </section>
+                    <section class="year">
+                        <div class="">
+                            <input type="checkbox" id="one" name="" class="" />2 Year($ 35.00)
+                       
+                        </div>
+                        
+                      </section>
+                    </section><br>
+
+ 
+        <section class="font comp-margin">
+          <div>Send me more information about:</div>
+          <div>
+            <input type="checkbox" id="comp" name="" checked />
+            <label for="comp">Computer-Zine</label>
+          </div>
+          <div>
+            <input type="checkbox" id="fish" name="" />
+            <label for="fish">Fishing-Zine</label>
+          </div>
+          <div>
+            <input type="checkbox" id="cat" name="" checked />
+            <label for="cat">Cat-O-Zine</label>
+          </div>
+        </section> 
+      </div>
+    </div>
+  </body>
+</html>
